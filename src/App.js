@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Modal from './components/LoginModal';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         {isLoggedIn ? (
           <>
@@ -68,7 +68,7 @@ function App() {
           </Routes>
         )}
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
