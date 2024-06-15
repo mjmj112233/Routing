@@ -1,0 +1,26 @@
+.navbarModuleStyle {
+    background-color: #ef8640;
+    padding: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.navbarModuleStyle ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbarModuleStyle li {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.navbarModuleStyle li:hover {
+    background: #3c86be;
+}
+
